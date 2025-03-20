@@ -23,4 +23,26 @@ function App() {
   )
 }
 
-export default App
+function App2(){
+  return (
+    <>
+      <div>hola2</div>
+      <div>hola2</div>
+    </>
+  )
+}
+
+const frutas = ['manzanas', 'peras', 'uvas']
+
+function App3(){
+  return(
+    <ul>
+      {frutas.map((fruta) => (
+          <li>{fruta}</li>
+      ))}
+    </ul>
+
+  )
+}
+
+export default App3
